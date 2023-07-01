@@ -3,9 +3,9 @@ ESX = exports['es_extended']:getSharedObject()
 local allowedJob = "fib" -- Lavoro consentito per chiudere il veicolo
 local allowedJob2 = "ambulance" -- Lavoro consentito per chiudere il veicolo
 local allowedJob3 = "police" -- Lavoro consentito per chiudere il veicolo
-local vehicleNames = { "modelloVeicolo", "modelloVeicolo", "modelloVeicolo" } -- Nomi dei veicoli consentiti
-local vehicleNames2 = { "modelloVeicolo", "modelloVeicolo", "modelloVeicolo" } -- Nomi dei veicoli consentiti
-local vehicleNames3 = { "modelloVeicolo", "modelloVeicolo", "modelloVeicolo" } -- Nomi dei veicoli consentiti
+local vehicleNames = { "modelloVeicolo", "modelloVeicolo", "modelloVeicolo" } -- Nomi dei veicoli consentiti per Job
+local vehicleNames2 = { "modelloVeicolo", "modelloVeicolo", "modelloVeicolo" } -- Nomi dei veicoli consentiti per Job2
+local vehicleNames3 = { "modelloVeicolo", "modelloVeicolo", "modelloVeicolo" } -- Nomi dei veicoli consentiti per Job3
 local interactionDistance = 5.0 -- Distanza massima per interagire con il veicolo
 
 RegisterNetEvent("esx:playerLoaded")
